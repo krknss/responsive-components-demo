@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a id="top"></a>
+      <h1>Responsive Komponenten-Demo</h1>
+
+      <p>
+        Technische Übung zur Umsetzung eines responsiven Layouts mit HTML und
+        CSS.
+      </p>
+    </header>
+    <section class="stack">
+      <p><strong>Tech Stack:</strong> HTML5 · CSS3 · Flexbox · Responsive</p>
+    </section>
+
+    <main>
+      <div class="container">
+        <section class="card-section">
+          <article class="card">
+            <h2>Webentwicklung</h2>
+            <p>Grundlagen von HTML-Struktur und CSS-Layout.</p>
+            <a class="btn" href="#web">Mehr erfahren</a>
+          </article>
+
+          <article class="card">
+            <h2>Frontend Layout</h2>
+            <p>Flexbox und responsive Anpassungen mit Media Queries.</p>
+            <a class="btn" href="#frontend">Mehr erfahren</a>
+          </article>
+
+          <article class="card">
+            <h2>Struktur & Organisation</h2>
+            <p>Saubere Dateiorganisation und semantisches HTML.</p>
+            <a class="btn" href="#struktur">Mehr erfahren</a>
+          </article>
+        </section>
+
+        <section class="details" id="details">
+          <h2>Details</h2>
+
+          <div id="web" class="detail-card">
+            <h3>Webentwicklung</h3>
+            <ul>
+              <li>Semantische Struktur: header/main/section/article</li>
+              <li>Saubere Klassenbenennung</li>
+              <li>Grundlayout mit Flexbox</li>
+            </ul>
+            <a class="back" href="#top">Zurück nach oben</a>
+          </div>
+
+          <div class="detail-card" id="frontend">
+            <h3>Frontend Layout</h3>
+            <ul>
+              <li>Flexbox: justify-content, gap, wrap</li>
+              <li>Responsive Breakpoints</li>
+              <li>Hover/Focus States</li>
+            </ul>
+            <a class="back" href="#top">Zurück nach oben</a>
+          </div>
+
+          <div class="detail-card" id="struktur">
+            <h3>Struktur & Organisation</h3>
+            <ul>
+              <li>Dateistruktur: /css /img</li>
+              <li>Wiederverwendbare Komponenten (Card)</li>
+              <li>Lesbarer Code & Kommentare</li>
+            </ul>
+            <a class="back" href="#top">Zurück nach oben</a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2026 Mini-Projekt – Frontend Übung</p>
+      <p>Projekt erstellt ohne Frameworks – nur mit reinem HTML & CSS.</p>
+    </footer>
+  </body>
+</html>
